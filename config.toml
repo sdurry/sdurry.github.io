@@ -1,0 +1,39 @@
+baseurl = "sdurry.github.io"
+title = "A First test"
+author = "Stephan Durry"
+canonifyurls = true
+languagecode = "en"
+theme = "hugo-tanka"
+
+googleAnalytics = ""
+disqusShortname = ""
+disable_mathjax = false
+
+pygmentsstyle      = "vs"
+pygmentscodefences = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  sitename = "My Blog"
+
+[[menu.main]]
+    name = "Home"
+    url = "https://nanx.me"
+    weight = 1
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/sdurry"
+    weight = 2
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/sdurry"
+    weight = 3
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/sdurry"
+    weight = 4
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
