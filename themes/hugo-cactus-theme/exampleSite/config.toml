@@ -1,20 +1,21 @@
 # Site settings
 baseurl = "https://example.org/"
+themesDir = "../.."
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-151754162-1"
+googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = ""
+disqusShortname = "spf13"
 
 [params]
-	name = "Stephan Durry"
+	name = "John Doe"
 	description = "Describe your website"
-	bio = "Head of Data & Insights at Onefootball"
+	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
-	twitter = "@sdurry"
-	enableRSS = false
+	twitter = "Your Twitter account"
+	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
 	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -47,8 +48,7 @@ disqusShortname = ""
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/sdurry"
-    linkedin = "https://www.linkedin.com/in/sdurry/"
-#    facebook = "https://www.facebook.com/"
-    github   = "https://www.github.com/sdurry"
-#    dribble  = "https://www.dribbble.com/"
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
