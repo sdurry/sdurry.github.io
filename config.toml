@@ -1,6 +1,6 @@
-baseurl = "sdurry.github.io"
-title = "A First test"
-author = "Stephan Durry"
+baseurl = "https://nanx.me/hugo-tanka/"
+title = "Hugo Tanka Theme"
+author = "Nan Xiao"
 canonifyurls = true
 languagecode = "en"
 theme = "hugo-tanka"
@@ -15,7 +15,7 @@ pygmentscodefences = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
-  sitename = "My Blog"
+  sitename = "Hugo Tanka Theme"
 
 [[menu.main]]
     name = "Home"
@@ -23,15 +23,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 1
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/sdurry"
+    url = "https://github.com/nanxstats"
     weight = 2
 [[menu.main]]
     name = "LinkedIn"
-    url = "https://www.linkedin.com/in/sdurry"
+    url = "https://www.linkedin.com/in/nanxstats"
     weight = 3
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/sdurry"
+    url = "https://twitter.com/nanxstats"
     weight = 4
 [[menu.main]]
     name = "RSS"
