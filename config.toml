@@ -8,6 +8,7 @@ theme = "hugo-cactus-theme"
 googleAnalytics = "UA-151754162-1"
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 	name = "Stephan Durry"
