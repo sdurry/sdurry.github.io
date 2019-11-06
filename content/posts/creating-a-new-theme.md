@@ -1,12 +1,10 @@
 ---
 author: Michael Henderson
 date: "2014-09-28"
-linktitle: Creating a New Theme
 title: Creating a New Theme
 ---
 
-
-### **Introduction**
+## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
 
@@ -17,16 +15,35 @@ In this tutorial, commands that you enter will start with the "$" prompt. The ou
 Here's an example:
 
 ```
-package main
+## this is a comment
+$ echo this is a command
+this is a command
 
-import "fmt"
+## edit the file
+$ vi foo.md
++++
+date = "2014-09-28"
+title = "creating a new theme"
++++
 
-func main() {
-    fmt.Print("Hello")
-}
+bah and humbug
+:wq
+
+## show it
+$ cat foo.md
++++
+date = "2014-09-28"
+title = "creating a new theme"
++++
+
+bah and humbug
+$
 ```
- 
-> There are a few concepts that you need to understand before creating a theme.
+
+
+## Some Definitions
+
+There are a few concepts that you need to understand before creating a theme.
 
 ### Skins
 
@@ -465,7 +482,7 @@ We could update one of the default templates, but a good design decision is to u
 
 Right now, that page is empty because we don't have any content and we don't have any logic in the template. Let's change that by adding some text to the template.
 
-```html
+```
 $ vi themes/zafta/layouts/index.html
 <!DOCTYPE html> 
 <html> 
