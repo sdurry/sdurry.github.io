@@ -1,18 +1,17 @@
-baseURL = "https://durry.eu"
-languageCode = "en-us"
+baseURL = "https://example.com"
+languageCode = "en-gb"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "Welcome!"
 theme = "hermit"
-enableGitInfo = true
+# enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
-# rssLimit = 10  # Maximum number of items in the RSS feed.
+rssLimit = 0  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-151754162-1"
+# googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [author]
   name = "Stephan Durry"
@@ -35,9 +34,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#405d9c"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "My name is Stephan"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -57,25 +56,25 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
+    name = "github"
+    url = "https://github.com/sdurry"
+
+  [[params.social]]
     name = "twitter"
     url = "https://twitter.com/sdurry"
 
   [[params.social]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/sdurry/"
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/"
+    url = "https://www.linkedin.com/in/sdurry"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "About"
+    url = "about/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20
+    name = "Blog"
+    url = "blog/"
+    weight = 10
