@@ -60,12 +60,16 @@ googleAnalytics = "UA-151754162-1"
     url = "https://github.com/sdurry"
 
   [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sdurry"
+
+  [[params.social]]
     name = "twitter"
     url = "https://twitter.com/sdurry"
 
   [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/sdurry"
+    name = "instagram"
+    url = "https://instagram.com/s_durry"
 
 [menu]
 
