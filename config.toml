@@ -21,6 +21,12 @@ googleAnalytics = "UA-151754162-1"
   # noreferrerLinks = true
   # nofollowLinks = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+# https://gohugo.io/news/0.60.0-relnotes/
+
 [taxonomies]
   tag = "tags"
   # Categories are disabled by default.
@@ -46,7 +52,7 @@ googleAnalytics = "UA-151754162-1"
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
-  relatedPosts = false  # Add a related content section to all single posts page
+  relatedPosts = true  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
