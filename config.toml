@@ -73,10 +73,6 @@ googleAnalytics = "UA-151754162-1"
     name = "twitter"
     url = "https://twitter.com/sdurry"
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/s_durry"
-
 [menu]
 
   [[menu.main]]
@@ -85,6 +81,6 @@ googleAnalytics = "UA-151754162-1"
     weight = 10
 
   [[menu.main]]
-    name = "Blog"
-    url = "blog/"
+    name = "Posts"
+    url = "posts/"
     weight = 10
