@@ -1,6 +1,6 @@
 # sdurry.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0641e68e-a387-41c8-b607-d8acb251ee7e/deploy-status)](https://app.netlify.com/sites/sdurry/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dbdac6a1-0f63-42e9-a12a-9714708ac09d/deploy-status)](https://app.netlify.com/sites/magenta-dodol-f42048/deploys)
 
 My personal website build with Hugo hosted on Netlify.
 
