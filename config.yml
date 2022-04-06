@@ -1,0 +1,42 @@
+baseURL: http://example.org/
+languageCode: en-us
+paginate: 5
+title: Stephan Durry
+theme: "PaperMod"
+
+googleAnalytics: UA-151754162-1
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  keywords: [Blog, Profile, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Hallo 👋
+    subtitle: "You can find me here"
+    imageUrl: "https://pbs.twimg.com/profile_images/1383333215927078919/ub-YiX0b_400x400.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    # buttons:
+    #   - name: Blog
+    #     url: https://medium.com/@s.durry
+    #   - name: Tags
+    #     url: tags
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/sdurry"
+    - name: medium
+      url: "https://medium.com/@s.durry"
+    - name: github
+      url: "https://github.com/sdurry"
+    - name: other
+      url: "https://wiki.sdurry.com/"
